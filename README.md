@@ -15,4 +15,7 @@ The end result from this was getting to a MAE of: 3.6342687846127224
 
 ## Interesting points
 
-The function `getxy(..)` 
+The data is split into training and testing by taking a random sample from the dataframe, using `df.sample(..)` and is then split into a numpy array using `np.split(..)` 
+
+I was able to split the rows into x data and y data, or features and label/target by using the function `getxy(..)`.
+x labels and a y label is passed in, and the values are returned in a numpy 2d array
