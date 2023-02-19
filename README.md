@@ -13,3 +13,6 @@ around with it.
 
 The end result from this was getting to a MAE of: 3.6342687846127224
 
+## Interesting points
+
+The function `getxy(..)` 
